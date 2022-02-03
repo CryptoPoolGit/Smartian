@@ -10,6 +10,7 @@ $(BUILDDIR):
 	@mkdir -p $(BUILDDIR)
 
 Smartian:
+	@dotnet dev-certs https --trust
 	@dotnet build -c Release -o $(BUILDDIR)
 
 .PHONY: all clean Smartian
