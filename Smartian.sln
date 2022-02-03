@@ -17,10 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nethermind", "Nethermind", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Config", "nethermind\src\Nethermind\Nethermind.Config\Nethermind.Config.csproj", "{D0747CB7-5914-4880-BDD4-6298F8F51E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Stats", "nethermind\src\Nethermind\Nethermind.Stats\Nethermind.Stats.csproj", "{670417B4-FC02-4F95-B3B8-70A0DE920095}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Mining", "nethermind\src\Nethermind\Nethermind.Mining\Nethermind.Mining.csproj", "{2843CB98-6CB6-455C-895F-1392C61B8C9C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Blockchain", "nethermind\src\Nethermind\Nethermind.Blockchain\Nethermind.Blockchain.csproj", "{A1F97D81-F508-41E0-A0A5-1872355F4B6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Core", "nethermind\src\Nethermind\Nethermind.Core\Nethermind.Core.csproj", "{8945B24B-209F-402B-987E-A200510A7C15}"
@@ -35,15 +31,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Logging", "nethe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Abi", "nethermind\src\Nethermind\Nethermind.Abi\Nethermind.Abi.csproj", "{8379B2BF-3878-4FF3-85E4-6F12E765B454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Store", "nethermind\src\Nethermind\Nethermind.Store\Nethermind.Store.csproj", "{E134EF37-C1EA-448D-A951-F3728200B039}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Evm", "nethermind\src\Nethermind\Nethermind.Evm\Nethermind.Evm.csproj", "{0EC2A965-BB74-47CD-8849-FEDD546BD096}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Evm.Test", "nethermind\src\Nethermind\Nethermind.Evm.Test\Nethermind.Evm.Test.csproj", "{91C12F06-112A-4F40-BA8B-342212F2BD1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dirichlet", "Dirichlet", "{437BC0A3-73BB-47CF-A61C-93477C2CA79E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethermind.Dirichlet.Numerics", "nethermind\src\Dirichlet\Nethermind.Dirichlet.Numerics\Nethermind.Dirichlet.Numerics.csproj", "{7CB5B92A-9CE0-4A56-A63E-D4B5C4DEFCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
